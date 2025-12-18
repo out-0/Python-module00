@@ -14,6 +14,7 @@ Each exercise builds upon the previous one, helping you develop essential progra
 -Submit just the function implementation in the file, no need for the main program.
 
 
+At this module the exercises aim to provide some basic input, output methods, also with the usage of the flow control with conditions statements and loop approaches 
 
 
 To test the functions, a program ***main.py*** is provided to test the required behavior for each function.
