@@ -1,12 +1,11 @@
 class Plant:
-    """Blueprint for garden plants for tracking plant
-    information (name), (height), (age)."""
+    """Blueprint of garden plants for tracking plants status"""
 
-    def __init__(self, name, height, age):
+    def __init__(self, name: str, height: int, age: int) -> None:
         """Initialize each instance with provided information"""
-        self.name = name
-        self.height = height
-        self.age = age
+        self.name: str = name
+        self.height: int = height
+        self.age: int = age
 
 
 plant1 = Plant("Rose", 25, 30)
