@@ -10,7 +10,7 @@ def check_temperature(temp_str: str):
             print(f"Temperature {degrees}°C is perfect for plants!")
             return degrees
     except ValueError:
-        print(f"Error: {temp_str} is not a valid number")
+        print(f"Error: '{temp_str}' is not a valid number")
 
 
 def test_temperature_input() -> None:
@@ -23,4 +23,6 @@ def test_temperature_input() -> None:
     print("All tests completed - program didn't crash!")
 
 
+print("=== Garden Temperature Checker ===")
+print("")
 test_temperature_input()
